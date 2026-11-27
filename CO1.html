@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="dashboard.css">
+</head>
+<body>
+
+<div class="dashboard">
+    <header class="dashboard__header">
+        <h2>My Dashboard</h2>
+        <input type="text" placeholder="Search">
+        <button onclick="document.body.classList.toggle('dark')">
+            Dark Mode
+        </button>
+    </header>
+
+    <aside class="dashboard__sidebar">
+        <p>Home</p>
+        <p>Profile</p>
+        <p>Settings</p>
+    </aside>
+
+    <main class="dashboard__main">
+        <div class="dashboard__cards">
+            <div class="card">
+                <h3 class="card__title">Students</h3>
+                <p>500</p>
+            </div>
+
+            <div class="card">
+                <h3 class="card__title">Teachers</h3>
+                <p>50</p>
+            </div>
+
+            <div class="card">
+                <h3 class="card__title">Courses</h3>
+                <p>20</p>
+            </div>
+
+            <div class="card">
+                <h3 class="card__title">Projects</h3>
+                <p>30</p>
+            </div>
+        </div>
+    </main>
+</div>
+
+</body>
+</html>
